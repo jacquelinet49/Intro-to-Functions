@@ -8,15 +8,25 @@ def message(input):
     print(input)
 message("Hello Class")
 
-
-def right():
-    t.forward(100)
+def rectangle(x):
+    t.forward(125)
     t.left(90)
     t.forward(100)
-    t.left(135)
-    t.forward(142)
-right()
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+rectangle(200)
 
+
+def equal(x):
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+equal(200)
 turtle.done()
 
 
