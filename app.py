@@ -19,7 +19,6 @@ def rectangle(x):
     t.left(90)
 rectangle(200)
 
-
 def equal(x):
     t.forward(90)
     t.left(120)
