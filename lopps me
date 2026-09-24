@@ -4,8 +4,51 @@ from turtle import *
 t = Turtle()
 t.shape('turtle')
 
-def square(length):
+#SPEED UP TURTLE
+t.speed(0)
+
+#BASIC SQUARE
+# def square(length):
+#     for i in range(4):
+#         t.forward(length)
+#         t.left(90)
+
+# #SETUP FOR CHALLENGE 60 SQUARES ROTATE 5 DEGREES
+# def square(length,angle):
+#     for _ in range (4):
+#         t.forward(length)
+#         t.right(angle)
+
+# def drawSpiral ():
+#     for i in range(60):
+#         square(100,90)
+#         t.right(5)
+# drawSpiral()
+
+# sidelength = 100
+# rotate = 90
+# def square(x,y):
+#     for i in range(4):
+#         t.forward(x)
+#         t.left(y)
+# triangle(100,90)
+
+#ADDING SQUARE 25 SIZE
+# def addSquares(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         square(length, 90)
+#         length += 25
+
+def square(length, angle):
     for i in range(4):
         t.forward(length)
-        t.left(90)
-rotate square(5)
+        t.right(angle)
+
+def addSquares(iRange):
+    length = 5
+    for i in range(iRange):
+        square(length, 90)
+        length += 5
+        t.right(5)
+addSquares(60)

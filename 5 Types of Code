@@ -1,0 +1,44 @@
+#defining a function
+
+# """ def add(x,y):
+# #vars created inside a function only exist in that function
+# # print(x+y)
+#     return x+ y
+# #call the function/ invoke the function
+# print (add(5,15))
+# z = add (5,15)
+# print(z) """
+
+# strings
+# fstrings
+# integers
+# boolean
+# float
+
+#4 Data types
+
+# #Integer
+# x=7
+
+# #Float
+# y = 3.14
+
+# #Boolean
+# z = truth
+
+# #Strings
+# #name = steve
+
+# lists
+students=["Natalalie", "Martin", "Ben"]
+students.append("MMm")
+print(students[0])
+#Print Natalie
+print(students[3])
+#Print Martin
+print(students[-1])
+#Print appended name            
+
+for student in students:
+    if (student=="ben"):
+            print(student, "Found Him!")
