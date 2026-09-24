@@ -15,7 +15,7 @@
 # boolean
 # float
 
-#4 Data types
+#5 Data types
 
 # #Integer
 # x=7
@@ -34,7 +34,7 @@ students=["Natalalie", "Martin", "Ben"]
 students.append("MMm")
 print(students[0])
 #Print Natalie
-print(students[3])
+print(students[1])
 #Print Martin
 print(students[-1])
 #Print appended name            
